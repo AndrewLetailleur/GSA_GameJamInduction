@@ -12,5 +12,30 @@ public class GenericStats : MonoBehaviour
 
     public float speed;
 
-    public float _jumpHeight;
+    public float jumpHeight;    
+    
+    
+    
+    public float baseDamage;
+
+    [SerializeField] private GameObject _healthBar;
+
+    private void Awake() {
+        currentHealth = maxHealth;
+        
+    }
+
+
+    
+
+    
+    
+    private void Update() {
+        if(_healthBar != null){
+            _healthBar.GetComponent<HealthBar>().ReScaleBar(currentHealth/maxHealth);
+
+        }
+    }
+
+    
 }

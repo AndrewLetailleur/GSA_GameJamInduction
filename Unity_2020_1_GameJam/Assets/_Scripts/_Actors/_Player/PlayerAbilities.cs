@@ -7,6 +7,14 @@ public class PlayerAbilities : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private AssignAbilitiyPrefabs _assignAbilityPrefabs;
 
+
+
+    //Abilities Variables
+    [SerializeField] private float _jetPackJumpForce;
+    
+
+    
+
     //variables to customize abilities behaviours
     
 
@@ -28,4 +36,11 @@ public class PlayerAbilities : MonoBehaviour
         
 
     }
+
+    public void JetPackAbility(){
+        _rigidbody2D.AddForce(new Vector2(0f, _jetPackJumpForce * Time.deltaTime), ForceMode2D.Force);
+        
+    }
+
+   
 }
