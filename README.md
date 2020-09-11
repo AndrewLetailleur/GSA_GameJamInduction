@@ -6,7 +6,7 @@ How to play the game/jazz. (WIP Notes, edit/include once it is done.)
 - Andrew Letailleur, Project Manager/Level Designer & Programmer
 - Lucas Prini, Gameplay Designer and Programmer
 - Matias Gotz, 2D Artist, 3D Modeller and Programmer
-- Kirstin McLellan, Audio Designer
+- Kirstin McLellan, Audio Designer & Music Composer
 - "E" Alegandro, (side) Project Manager
 - "Omar", honourary 2D Artist
 
