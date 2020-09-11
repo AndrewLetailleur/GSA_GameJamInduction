@@ -9,3 +9,7 @@ How to play the game/jazz. (WIP Notes, edit/include once it is done.)
 - Kirstin McLellan, Audio Designer
 - "E" Alegandro, (side) Project Manager
 - "Omar", honourary 2D Artist
+
+# Sources
+- City, by aangel (NO/UKNOWN LICENSE!)
+https://aangel.itch.io/city
